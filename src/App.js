@@ -5,14 +5,14 @@ function App() {
 
   // const employees = ['Haoming', 'Rumana', 'Aibee', 'Irem', 'Edisa'];
 
-  const products = [
-    {name: 'Laptop', price: 50000},
-    {name: 'Phone', price: 30000},
-    {name: 'Tab', price: 40000},
-    {name: 'Watch', price: 3000},
+  // const products = [
+  //   {name: 'Laptop', price: 50000},
+  //   {name: 'Phone', price: 30000},
+  //   {name: 'Tab', price: 40000},
+  //   {name: 'Watch', price: 3000},
 
 
-  ]
+  // ]
 
   return (
 
@@ -27,7 +27,7 @@ function App() {
      <Person name="Aibee E." Job= "VA"></Person>
      <Person name="Irem" Job= "VA"></Person> */}
 
-     {products.map(product =><Product name={product.name} price={product.price} ></Product>)}
+     {/* {products.map(product =><Product name={product.name} price={product.price} ></Product>)} */}
 
 
      {/* <Product name="Laptop" price="50000" ></Product>
@@ -50,13 +50,15 @@ function App() {
 function Product(props) {
 
   return (
-    <div className="person">
-      {/* <h1>Name: {props.name} </h1>
-      <h2>Jobs: {props.Job}</h2> */}
+    // <div className="person">
+    //   {/* <h1>Name: {props.name} </h1>
+    //   <h2>Jobs: {props.Job}</h2> */}
 
-      <h3>Name: {props.name} </h3>
-      <h3>Price: {props.price} </h3>
-    </div>
+    //   {/* <h3>Name: {props.name} </h3>
+    //   <h3>Price: {props.price} </h3> */}
+    // </div>
+
+    <div></div>
   );
 }
 
