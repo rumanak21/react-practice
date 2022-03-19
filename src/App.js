@@ -3,28 +3,26 @@ import './App.css';
 
 function App() {
 
-  const employees = ['Haoming', 'Rumana', 'Aibee', 'Irem', 'Edisa'];
+  // const employees = ['Haoming', 'Rumana', 'Aibee', 'Irem', 'Edisa'];
 
-  return (
+  // return (
+
+  //   <div className="App">
+
+  //   {
+  //     employees.map(employee => <Person name={employee}></Person>)
+  //   }
+
+  //     <Person name="Haoming Wang" Job= "Advisor"></Person>
+  //   <Person name="Rumana K." Job= "VA"></Person>
+  //   <Person name="Aibee E." Job= "VA"></Person>
+  //   <Person name="Irem" Job= "VA"></Person>
+
+  //   </div>
+
+  // );
 
 
-
-
-
-    <div className="App">
-
-    {
-      employees.map(employee => <Person name={employee}></Person>)
-    }
-
-      {/* <Person name="Haoming Wang" Job= "Advisor"></Person>
-    <Person name="Rumana K." Job= "VA"></Person>
-    <Person name="Aibee E." Job= "VA"></Person>
-    <Person name="Irem" Job= "VA"></Person> */}
-
-    </div>
-
-  );
 }
 
 function Person(props) {
