@@ -17,5 +17,8 @@ code {
   background-color: darkkhaki;
   padding: 10px;
   margin: 20px;
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 20px;
   
 }
